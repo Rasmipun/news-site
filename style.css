@@ -197,7 +197,7 @@ img {
 }
 
 
-/* @media (prefers-color-scheme: dark) {
+@media (prefers-color-scheme: dark) {
   body{
     background-color: black;
   }
@@ -206,5 +206,5 @@ img {
     color: white;
   }
   
-} */
+}
 
