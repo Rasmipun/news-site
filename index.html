@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+
+    <link rel="stylesheet" href="style.css" />
+
+    <title>Frontend Mentor | News homepage</title>
+  </head>
+  <body>
+    <div class="container">
+      <header class="flex header items-center justify-between">
+        <div>
+          <img src="./assets/images/logo.svg" alt="logo" />
+        </div>
+        <button class="hamburger">
+          <img src="./assets/images/icon-menu.svg" alt="hamburger" />
+        </button>
+        <nav class="navbar">
+          <ul class="flex items-center list-none space-x-8">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="news.html">News</a></li>
+            <li><a href="popular.html">Popular</a></li>
+            <li><a href="trending.html">Trending</a></li>
+            <li><a href="categories.html">Categories</a></li>
+          </ul>
+        </nav>
+      </header>
+      <main class="grid grid-cols-3">
+        <div class="main-blog">
+          <div>
+            <img src="./assets/images/image-web-3-desktop.jpg" alt="Web3 " />
+          </div>
+          <div class="grid grid-cols-2 main-blog--body">
+            <h2 class="main-blog--title">The Bright Future of Web 3.0</h2>
+            <div class="flex flex-col justify-between">
+              <p>
+                We dive into the next evolution of the web that claims to put
+                the power of the platforms back into the hands of the people.
+                But is it really fulfilling its promise?
+              </p>
+              <div>
+                <a class="read-btn" href="news.html">Read more</a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <aside class="sidebar">
+          <h2 style="color: darkgoldenrod">New</h2>
+          <div class="news-item">
+            <a href="">
+              <h3>Hydrogen VS Electric Cars</h3>
+            </a>
+            <p>Will hydrogen-fueled cars ever catch up to EVs?</p>
+          </div>
+          <div class="news-item">
+            <a href="">
+              <h4 class="h4">The Downsides of Artistry</h4>
+            </a>
+            <p>
+              What happens when old PCs are given modern upgrades? We take a
+              look at what that means.
+            </p>
+          </div>
+          <div class="news-item">
+            <a href="">
+              <h5 class="h5">Is Vc Funding Drying Ip?</h5>
+            </a>
+            <p>
+              Private funding VC firms is doem 50% YOY. We take a look at what
+              that means.
+            </p>
+          </div>
+        </aside>
+      </main>
+      <div class="grid grid-cols-3" style="margin-top: 20px">
+        <div class="flex" style="gap: 10px">
+          <div class="flex-1">
+            <img src="./assets/images/image-retro-pcs.jpg" alt="Retro PCS" />
+          </div>
+          <div class="flex-2">
+            <h2>O1</h2>
+            <h3 style="font-size: 18px">Reviving Retro PCs</h3>
+            <p1>
+              What happens when old PCs are given modern upgrades? We take a
+              look at what that means.
+            </p1>
+          </div>
+        </div>
+        <div class="flex" style="gap: 10px">
+          <div class="flex-1">
+            <img src="./assets/images/image-top-laptops.jpg" alt="Retro PCS" />
+          </div>
+          <div class="flex-2">
+            <h2>O2</h2>
+            <h3>Reviving Retro PCs</h3>
+            <p2>Our best picks for various needs and budgets.</p2>
+          </div>
+        </div>
+        <div class="flex" style="gap: 10px">
+          <div class="flex-1">
+            <img
+              src="./assets/images/image-gaming-growth.jpg"
+              alt="Retro PCS"
+            />
+          </div>
+          <div class="flex-2">
+            <h2>O3</h2>
+            <h3>Reviving Retro PCs</h3>
+            <p3>How the pandemic has sparked fresh opportunities.</p3>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
